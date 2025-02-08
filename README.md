@@ -1,4 +1,4 @@
-# Fuente - The Future of E-commerce in Suriname
+# Fuente - The Future of E-commerce
 
 <img src="https://github.com/illuminodes/fuente/blob/mera/public/assets/img/logo_full.jpeg?raw=true" alt="Logo" width="300px" style="margin-bottom: 1rem">
 
