@@ -30,7 +30,7 @@ Fuente is built using the latest web technologies to ensure performance and scal
 - **🗺️ Leaflet** - Interactive maps and location services [(LeafletJS)](https://leafletjs.com/)
 - **💰 BitcoinQR** - Simple Bitcoin QR code generator for payments [(BitcoinQR GitHub)](https://github.com/bitcoinerlab/bitcoinqr)
 - **🔔 ToastifyJS** - Elegant toast notifications [(ToastifyJS Docs)](https://apvarun.github.io/toastify-js/)
-- **🔔 Lucide Yew** - Flexible icon family for interfaces [(Lucide Yew Docs)](https://docs.rs/lucide-yew/latest/lucide_yew/)
+- **👾 Lucide Yew** - Flexible icon family for interfaces [(Lucide Yew Docs)](https://docs.rs/lucide-yew/latest/lucide_yew/)
 
 ---
 
