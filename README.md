@@ -2,7 +2,7 @@
 
 <img src="https://github.com/illuminodes/fuente/blob/mera/public/assets/img/logo_full.jpeg?raw=true" alt="Logo" width="300px" style="margin-bottom: 1rem">
 
-Fuente is a modern and open source e-commerce platform, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒⚡
+Fuente is a modern and open source e-commerce platform, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒
 
 ---
 
