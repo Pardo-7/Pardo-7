@@ -92,5 +92,3 @@ This ensures the application is stable and reliable. ✅
 Fuente is open-source and available under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ---
-
-💙 **Built with love, Rust, and Bitcoin for Suriname.** 🇸🇷
