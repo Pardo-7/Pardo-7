@@ -90,5 +90,3 @@ This ensures the application is stable and reliable. ✅
 ## 📄 License
 
 Fuente is open-source and available under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
----
