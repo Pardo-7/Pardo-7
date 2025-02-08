@@ -1,68 +1,96 @@
-# 🌊 Fuente - The E-commerce for Suriname 🇸🇷
+# 🌊 Fuente - The Future of E-commerce in Suriname
 
-Fuente is a cutting-edge e-commerce platform designed for the people of Suriname, providing seamless access to online shopping and Bitcoin payments. 🚀💳
+![Fuente Logo](logo_full.jpeg)
+
+Fuente is a modern e-commerce platform designed specifically for Suriname, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒⚡
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-Fuente is built using modern and powerful technologies:
+✅ **Multi-App System:** Includes separate apps for admin, businesses, consumers, drivers, invoicing, and core services.  
+✅ **Bitcoin Payments:** Easily transact using Bitcoin for a seamless and borderless payment experience.  
+✅ **Decentralized & Secure:** Powered by Rust, Yew, and Nostr for speed, security, and resilience.  
+✅ **Interactive UI:** Styled with TailwindCSS for a sleek and modern interface.  
+✅ **Geo-Enabled Services:** Integrated with Leaflet for mapping and location-based features.  
+✅ **QR Code Payments:** Leverages BitcoinQR for simple cryptocurrency transactions.  
+✅ **Notifications:** Uses ToastifyJS for real-time alerts and updates.  
+✅ **Efficient Testing:** Ensured reliability with Rust’s built-in testing framework.  
 
-- 🦀 **Rust** - Safe and fast programming language
-- 🌿 **Yew** - Rust-based framework for building web apps
-- ⚡ **Nostr** - Decentralized communication protocol
-- 🎨 **TailwindCSS** - Utility-first CSS framework for styling
+---
 
-## 🔬 Testing
+## 🛠 Tech Stack
 
-- 🧪 **Rust Testing Library** - Ensures robustness and reliability
+Fuente is built using the latest web technologies to ensure performance and scalability:
 
-## 🏗️ Project Structure
+- **🦀 Rust** - High-performance, memory-safe programming language [(Download Rust)](https://www.rust-lang.org/learn/get-started)
+- **🌿 Yew** - Rust-based framework for building interactive web apps [(Yew Docs)](https://yew.rs/docs/)
+- **⚡ Nostr** - Decentralized protocol for secure communication [(Nostr Protocol)](https://nostr.com/)
+- **🎨 TailwindCSS** - Utility-first CSS framework for styling [(Tailwind Docs)](https://tailwindcss.com/docs)
+- **🗺️ Leaflet** - Interactive maps and location services [(LeafletJS)](https://leafletjs.com/)
+- **💰 BitcoinQR** - Simple Bitcoin QR code generator for payments [(BitcoinQR GitHub)](https://github.com/bitcoinerlab/bitcoinqr)
+- **🔔 ToastifyJS** - Elegant toast notifications [(ToastifyJS Docs)](https://apvarun.github.io/toastify-js/)
 
-Fuente consists of multiple applications within the same project:
+---
 
-📂 `admin/` - Admin panel for managing the platform  
-🏬 `business/` - Merchant interface for sellers  
-🛒 `consumer/` - User-facing e-commerce platform  
-🚚 `driver/` - Logistics and delivery management  
-🛠️ `fuente/` - Core application  
-📑 `invoicer/` - Invoice management system  
+## 📦 Installation & Setup
 
-## 🔌 Plugins & Modules
+To run Fuente locally, ensure you have the necessary dependencies installed.
 
-- 🗺️ **Leaflet** - Interactive maps
-- ₿ **BitcoinQR** - Bitcoin payment QR generator
-- 🔔 **ToastifyJS** - Stylish notifications
+### ✅ Prerequisites
 
-## 📋 Prerequisites
+Before starting, install the following:
+- [Rust & Cargo](https://www.rust-lang.org/tools/install) 🦀
+- [Trunk](https://trunkrs.dev/#install) 🚀
+- [WebAssembly Target](https://rustwasm.github.io/wasm-pack/installer/) 🕸️
 
-Before running the project, ensure you have the following installed:
+### 📥 Clone the Repository
 
-- 🦀 **Rust**
-- 📦 **Cargo**
-- 🚀 **Trunk**
-- 🌐 **WebAssemblyTarget**
+```sh
+ git clone https://github.com/yourusername/fuente.git
+ cd fuente
+```
 
-## 🏃‍♂️ Installation & Execution
+### 🔥 Run the Application
 
-Clone the repository and run the following command:
+To start the **Consumer App**, execute:
 
 ```sh
 trunk serve --config consumer/Trunk.toml
 ```
 
-## 📸 Screenshots
-
-Coming soon... 🚧
-
-## 🤝 Contributing
-
-We welcome contributions! Feel free to submit pull requests or open issues.
-
-## 📜 License
-
-MIT License © 2025 Fuente
+For other apps, replace `consumer` with the desired app folder (e.g., `admin`, `business`).
 
 ---
 
-💙 Built with love for Suriname 🇸🇷 and powered by Rust! 🚀
+## 🧪 Running Tests
+
+Fuente uses Rust's built-in testing framework. Run tests with:
+
+```sh
+cargo test
+```
+
+This ensures the application is stable and reliable. ✅
+
+---
+
+## 🔗 Useful Links
+
+- 📜 Official Rust Docs: [Rust Documentation](https://doc.rust-lang.org/)
+- 🔧 Trunk Guide: [Trunk Docs](https://trunkrs.dev/)
+- 🖥️ Yew Framework: [Yew Documentation](https://yew.rs/docs/)
+- 🔑 Nostr Protocol: [Nostr](https://nostr.com/)
+- 🎨 TailwindCSS: [Tailwind Docs](https://tailwindcss.com/docs)
+- 🗺️ Leaflet Maps: [LeafletJS](https://leafletjs.com/)
+- ⚡ BitcoinQR: [BitcoinQR GitHub](https://github.com/bitcoinerlab/bitcoinqr)
+
+---
+
+## 📄 License
+
+Fuente is open-source and available under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+---
+
+💙 **Built with love, Rust, and Bitcoin for Suriname.** 🇸🇷
