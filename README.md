@@ -1,8 +1,8 @@
-# 🌊 Fuente - The Future of E-commerce in Suriname
+# Fuente - The Future of E-commerce in Suriname
 
-![Fuente Logo](logo_full.jpeg)
+<img src="https://github.com/illuminodes/fuente/blob/mera/public/assets/img/logo_full.jpeg?raw=true" alt="Logo" width="300px" style="margin-bottom: 1rem">
 
-Fuente is a modern e-commerce platform designed specifically for Suriname, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒⚡
+Fuente is a modern and open source e-commerce platform, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒⚡
 
 ---
 
@@ -30,6 +30,7 @@ Fuente is built using the latest web technologies to ensure performance and scal
 - **🗺️ Leaflet** - Interactive maps and location services [(LeafletJS)](https://leafletjs.com/)
 - **💰 BitcoinQR** - Simple Bitcoin QR code generator for payments [(BitcoinQR GitHub)](https://github.com/bitcoinerlab/bitcoinqr)
 - **🔔 ToastifyJS** - Elegant toast notifications [(ToastifyJS Docs)](https://apvarun.github.io/toastify-js/)
+- **🔔 Lucide Yew** - Flexible icon family for interfaces [(Lucide Yew Docs)](https://docs.rs/lucide-yew/latest/lucide_yew/)
 
 ---
 
