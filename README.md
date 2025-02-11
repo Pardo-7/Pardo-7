@@ -142,7 +142,7 @@ Ensure you have the following tools installed:
    ```
 3. **Add the Upstream Remote:**
    ```sh
-   git remote add upstream https://github.com/Pardo-7/Fuente.git
+   git remote add upstream https://github.com/daedalus/Fuente.git
    ```
 4. **Fetch upstream changes**
    ```sh
