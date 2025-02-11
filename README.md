@@ -209,6 +209,7 @@ git pull upstream develop
 - 🎨 TailwindCSS: [Tailwind Docs](https://tailwindcss.com/docs)
 - 🗺️ Leaflet Maps: [LeafletJS](https://leafletjs.com/)
 - ⚡ BitcoinQR: [BitcoinQR GitHub](https://github.com/bitcoinerlab/bitcoinqr)
+- 💰 Bitcoin Contributions: [Bitcoin Contributing](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md)
 
 ---
 
