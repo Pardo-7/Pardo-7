@@ -1,12 +1,12 @@
 <img src="https://github.com/illuminodes/fuente/blob/mera/public/assets/img/logo_full.jpeg?raw=true" alt="Logo" width="300px" style="margin-bottom: 1rem">
 
-Fuente is a modern and open source e-commerce platform, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒
+Fuente is a modern and open-source e-commerce platform, enabling seamless online shopping with Bitcoin payments. Built with cutting-edge technologies, Fuente provides a smooth and decentralized shopping experience for consumers, businesses, and service providers. 🛒
 
 ---
 
 ## 🚀 Features
 
-✅ **Multi-App System:** Includes separate apps for admin, businesses, consumers, drivers, invoicing, and core services.  
+✅ **Multi-App System:** Includes separate apps for admin, businesses, consumers, drivers, and core services.  
 ✅ **Bitcoin Payments:** Easily transact using Bitcoin for a seamless and borderless payment experience.  
 ✅ **Decentralized & Secure:** Powered by Rust, Yew, and Nostr for speed, security, and resilience.  
 ✅ **Interactive UI:** Styled with TailwindCSS for a sleek and modern interface.  
@@ -29,6 +29,52 @@ Fuente is built using the latest web technologies to ensure performance and scal
 - **💰 BitcoinQR** - Simple Bitcoin QR code generator for payments [(BitcoinQR GitHub)](https://github.com/bitcoinerlab/bitcoinqr)
 - **🔔 ToastifyJS** - Elegant toast notifications [(ToastifyJS Docs)](https://apvarun.github.io/toastify-js/)
 - **👾 Lucide Yew** - Flexible icon family for interfaces [(Lucide Yew Docs)](https://docs.rs/lucide-yew/latest/lucide_yew/)
+
+---
+
+## 🏗 Project Architecture
+
+Fuente is structured as a **Cargo workspace** that manages multiple apps, each with its own dependencies and configurations. The main apps include:
+
+- `admin/` - Dashboard for managing the platform.
+- `business/` - Interface for businesses selling products or services.
+- `consumer/` - Main shopping application for customers.
+- `driver/` - App for delivery drivers.
+- `fuente/` - Core shared resources and utilities.
+
+Each app contains:
+- `Cargo.toml` - Rust dependencies and settings.
+- `manifest.json` - Web app metadata.
+- `serviceWorker.js` - PWA functionality for offline capabilities.
+- `Trunk.toml` - Configuration for Trunk bundler.
+- `build.rs` - Custom build script if needed.
+- `src/` - Main application logic.
+
+Fuente does **not** rely on a traditional backend. Instead, it is fully decentralized, using **Nostr** and **IndexedDB** for communication and storage.
+
+---
+
+## 🌐 How Fuente Uses Nostr
+
+Fuente leverages **Nostr** as its primary communication protocol for a trustless and decentralized experience. 
+
+### 🔗 Communication with Relays
+- All messages, transactions, and interactions are sent via **Nostr relays**, removing the need for centralized servers.
+- Each app (consumer, business, admin, etc.) subscribes to specific events in the network, ensuring seamless interaction.
+
+### 🔑 Authentication
+- Users authenticate using **Nostr public/private keys** instead of traditional logins.
+- Private keys are securely stored on the client-side, never exposing them to third parties.
+
+### 💰 Payments & Transactions
+- Bitcoin payments are processed using **BitcoinQR** and are confirmed via **Nostr events**.
+- Transactions are immutable and verifiable, enhancing security and transparency.
+
+### 📦 Data Storage
+- No centralized database is used. Instead, **IndexedDB** is leveraged for local storage.
+- Users retain control over their data, which can be synchronized across devices via Nostr relays.
+
+Using **Nostr** ensures Fuente remains **censorship-resistant**, **fault-tolerant**, and **decentralized**, making it an ideal solution for borderless commerce.
 
 ---
 
