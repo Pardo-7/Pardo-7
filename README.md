@@ -92,7 +92,7 @@ Before starting, install the following:
 ### 📥 Clone the Repository
 
 ```sh
- git clone https://github.com/illuminodes/fuente.git
+ git clone https://github.com/daedalus/fuente.git
  cd fuente
 ```
 
@@ -126,7 +126,7 @@ Thank you for your interest in contributing to Fuente! We follow a **GitFlow for
 ### 1. Understanding the Contribution Model
 This project follows a GitFlow forking model, inspired by how contributions are made to Bitcoin Core. Instead of pushing directly to the main repository, contributors fork the repository and submit changes via pull requests (PRs). Maintainers review, test, and merge contributions accordingly.
 
-### 2.Prerequistes
+### 2. Prerequistes
 Ensure you have the following tools installed:
 - [Git](https://git-scm.com/) ⚙️
 - [Rust & Cargo](https://www.rust-lang.org/tools/install) 🦀
