@@ -92,7 +92,7 @@ Before starting, install the following:
 ### 📥 Clone the Repository
 
 ```sh
- git clone (https://github.com/illuminodes/fuente.git)
+ git clone https://github.com/illuminodes/fuente.git
  cd fuente
 ```
 
