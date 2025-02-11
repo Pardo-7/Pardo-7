@@ -121,7 +121,7 @@ This ensures the application is stable and reliable. ✅
 ---
 
 ## 📜 Contribution Guide
-Thank you for your interest in contributing to Fuente! We follow a **GitFlow forking model**, similar to how Bitcoin development works. Below is the process for contributing.
+Thank you for your interest in contributing to Fuente! We follow a **GitFlow forking model**, similar to how [Bitcoin](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md) development works. Below is the process for contributing.
 
 ### 1. Understanding the Contribution Model
 This project follows a GitFlow forking model, inspired by how contributions are made to Bitcoin Core. Instead of pushing directly to the main repository, contributors fork the repository and submit changes via pull requests (PRs). Maintainers review, test, and merge contributions accordingly.
